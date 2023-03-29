@@ -1,0 +1,146 @@
+/* body start */
+body{
+    margin: 0;
+}
+.resume{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* body end */
+
+
+/* sidebar start */
+.sidebar__left{
+background-color: #323B4C;
+margin-top: 0px ;
+    width: 30%;
+      height: 700px; 
+      border-top-right-radius: 2%;
+      border-bottom-right-radius: 2%;
+
+      box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+.header__left_photo{
+    margin: 10% 0 -5% 8%;
+    width: 220px;
+    height: auto;
+    animation: fade-up-left 1s ease-in-out;
+}
+@keyframes fade-up-left {
+    from {
+      opacity: 0;
+       transform: translateX(10px); 
+    }
+    to {
+      opacity: 1;
+    }
+  }
+/* sidebar start */
+
+
+/* content start */
+.header__name{
+    font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 35% 0 1% 10%;
+ color: #323B4C;
+ white-space: nowrap;
+ width: auto; 
+ animation: fade-up-left 1s ease-in-out;
+}
+
+@keyframes fade-up-left {
+    from {
+      opacity: 0;
+       transform: translateX(10px); 
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.header__ocp{
+    font-weight: 700;
+  font-size: 40px;    
+  margin: 1% 0 0% 10%;
+ color: #323B4C;
+ animation: fade-up-left 1s ease-in-out;
+}
+@keyframes fade-up-left {
+    from {
+      opacity: 0;
+       transform: translateX(10px); 
+    }
+    to {
+      opacity: 1;
+    }
+  }
+/* content start */
+
+
+/* navbar start */
+.navbar__list{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    color: white;
+    margin-top: 15%;
+    padding-left: 8%;
+    width: 100%;
+    list-style-type: none;
+    text-decoration: none   ;
+    animation: fade-up-left 1s ease-in-out;
+}
+@keyframes fade-up-left {
+    from {
+      opacity: 0;
+       transform: translateX(10px); 
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.navbar__item{
+    text-decoration: none;
+    
+}
+.navbar__item:hover{
+    color: white;
+}
+.navbar__item:link{
+    color: white;
+}
+a:visited{
+    color:rgb(240, 38, 38);
+}
+/* navbar start */
+
+/* content start */
+.content{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.content__right{
+  width: 71%;
+    display: flex;
+    align-items: flex-start;
+    animation: fade-up-left 1s ease-in-out;
+}
+
+@keyframes fade-up-left {
+    from {
+      opacity: 0;
+      transform: translateX(10px);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+/* content start */
+
+
+ 
